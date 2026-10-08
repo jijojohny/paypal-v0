@@ -30,6 +30,9 @@ yarn-error.log*
 .env
 .env.*
 !.env.example
+*.pem
+*.key
+credentials.json
 
 # local data
 /data/*.sqlite
@@ -41,7 +44,6 @@ yarn-error.log*
 # misc
 .DS_Store
 Thumbs.db
-*.pem
 *.swp
 *~
 
@@ -52,6 +54,7 @@ Thumbs.db
 # local planning
 AGENTS.md
 plan.md
+brand.md
 
 # vercel
 .vercel

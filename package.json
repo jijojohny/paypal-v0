@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "invoice:check": "tsx --env-file=.env scripts/create-invoice.ts",
+    "seed": "tsx --env-file=.env scripts/seed.ts",
+    "reset": "tsx --env-file=.env scripts/reset.ts"
   },
   "dependencies": {
     "next": "16.4.0",
@@ -21,6 +24,7 @@
     "eslint": "^9",
     "eslint-config-next": "16.4.0",
     "tailwindcss": "^4",
+    "tsx": "^4.23.15",
     "typescript": "^5"
   }
 }
